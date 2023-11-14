@@ -1,5 +1,5 @@
 import unittest
-from cityreader.cityreader import City
+from cityreader import City
 from . import cityreader
 
 def check_city(inp, exp):

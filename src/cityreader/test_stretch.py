@@ -1,6 +1,6 @@
 import unittest
-from cityreader.cityreader import City, cityreader_stretch
-from . import cityreader
+from cityreader import City, cityreader_stretch
+import cityreader
 
 def check_city(inp, exp):
     if inp.name != exp.name:
