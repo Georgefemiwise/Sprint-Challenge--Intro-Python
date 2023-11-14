@@ -1,5 +1,6 @@
 import unittest
-from cityreader import City, cityreader
+from cityreader.cityreader import City
+from . import cityreader
 
 def check_city(inp, exp):
     if inp.name != exp.name:
