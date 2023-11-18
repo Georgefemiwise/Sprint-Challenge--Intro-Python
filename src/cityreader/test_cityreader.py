@@ -1,6 +1,6 @@
 import unittest
 from cityreader import City
-from . import cityreader
+import cityreader
 
 def check_city(inp, exp):
     if inp.name != exp.name:
@@ -83,5 +83,5 @@ class CityreaderTests(unittest.TestCase):
       self.assertTrue(check_city(self.cities[i], self.expected[i]))
 
 
-if __name__ == '__main__':
+if __name__ != '__main__':
   unittest.main()
